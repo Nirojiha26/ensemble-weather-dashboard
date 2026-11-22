@@ -1,0 +1,14 @@
+Model,Family,RMSE,MAE,R2,Fit time (s)
+Hybrid RF + ARMA,Hybrid,0.5407,0.4226,0.9842,5.6
+Stacking (RF+XGB+ANN -> Ridge),Stacking,0.543,0.4224,0.9841,22.7
+XGBoost,Boosting,0.5448,0.4242,0.984,0.6
+LightGBM,Boosting,0.5449,0.4242,0.984,1.4
+Gradient Boosting,Boosting,0.5451,0.4245,0.984,16.9
+Baseline: Ridge,Baseline,0.5501,0.4265,0.9837,0.0
+CatBoost,Boosting,0.5507,0.4297,0.9837,0.9
+Extra Trees,Bagging,0.5511,0.4312,0.9836,1.8
+"ARMA(2,2) alone",Time series,0.5515,0.4291,0.9836,
+Random Forest,Bagging,0.5516,0.4301,0.9836,4.5
+Hybrid RF + ANN,Hybrid,0.5752,0.4352,0.9822,5.8
+AdaBoost,Boosting,0.5854,0.4586,0.9815,13.8
+Baseline: Persistence,Baseline,0.5855,0.445,0.9815,

@@ -1,0 +1,37 @@
+{
+  "name_map": {
+    "Baseline: Ridge": "Baseline_Ridge.joblib",
+    "Random Forest": "Random_Forest.joblib",
+    "Extra Trees": "Extra_Trees.joblib",
+    "AdaBoost": "AdaBoost.joblib",
+    "Gradient Boosting": "Gradient_Boosting.joblib",
+    "XGBoost": "XGBoost.joblib",
+    "LightGBM": "LightGBM.joblib",
+    "CatBoost": "CatBoost.joblib",
+    "Stacking (RF+XGB+ANN -> Ridge)": "Stacking_RFXGBANN_to_Ridge.joblib",
+    "Hybrid RF + ANN": "Hybrid_RF__ANN.joblib"
+  },
+  "feature_cols": [
+    "temperature_2m_max",
+    "temperature_2m_min",
+    "temperature_2m_mean",
+    "precipitation_sum",
+    "wind_speed_10m_max",
+    "wind_gusts_10m_max",
+    "shortwave_radiation_sum",
+    "et0_fao_evapotranspiration",
+    "temp_lag1",
+    "temp_lag2",
+    "temp_lag3",
+    "temp_roll7",
+    "rain_roll7",
+    "doy_sin",
+    "doy_cos",
+    "district_Colombo",
+    "district_Kandy",
+    "district_Galle",
+    "district_Jaffna",
+    "district_Anuradhapura",
+    "district_Nuwara Eliya"
+  ]
+}
