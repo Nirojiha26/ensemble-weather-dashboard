@@ -16,6 +16,11 @@ This project explores whether combining multiple diverse learning algorithms via
 
 ---
 
+### ⚠️ Declaration of AI Usage
+**Declaration:** This assignment, its codebase, and the interactive dashboard were developed with the assistance of **Claude (Anthropic)** for code structuring, implementation assistance, and debugging. All models, evaluations, and outputs were verified, tested, and validated.
+
+---
+
 ## 🔬 Ensemble Families & Models Evaluated
 
 | Ensemble Paradigm | Algorithms Used | Key Concept |
@@ -68,19 +73,3 @@ This project explores whether combining multiple diverse learning algorithms via
    ```bash
    streamlit run app.py
    ```
-
----
-
-## 📢 Academic Integrity & Generative AI Disclosure Statement
-
-* **Student Name:** Nirojiha Nagendram
-* **Index Number:** 224130C
-* **Course:** Machine Learning / Ensemble Learning Assignment
-
-In strict accordance with the academic integrity policy and assignment guidelines, I hereby declare that **Generative AI (Claude by Anthropic / Google AI)** was utilized as an assistive tool during the development of this project for:
-1. **Code Scaffolding:** Assisting with boilerplate syntax for data extraction (Open-Meteo API), feature engineering, ensemble modeling, and the Streamlit UI layout.
-2. **Debugging & Optimization:** Assisting in identifying runtime bottlenecks, model compression (`joblib` with `xz`), and resolving dependency versioning for deployment.
-3. **Documentation:** Assisting in structuring technical explanations and drafting interpretations of model performance metrics.
-
-**Affirmation:** All code, trained models, evaluations, and analytical conclusions were verified, tested, executed, and validated by the student. Every design decision and algorithmic concept is fully understood and can be defended.
-
