@@ -228,4 +228,8 @@ These are reanalysis values, not raw weather-station readings.
 **Evaluation:** chronological split (train 2015-2023, test 2024-2025); metrics RMSE, MAE, R².
 
 **Limitations:** one-day-ahead only; reanalysis data; hyper-parameters set by hand.
+
+---
+### 📢 Generative AI Disclosure Statement
+*In accordance with assignment policy, Generative AI (Claude / Google AI) was used as an assistive tool for code scaffolding (Open-Meteo API ingestion, feature engineering, ensemble architectures, and Streamlit layout), debugging, and drafting technical interpretations. All code and results were reviewed, executed, and verified by the student (Nirojiha Nagendram | Index: 224130C).*
 """)
